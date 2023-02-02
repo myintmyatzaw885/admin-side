@@ -429,15 +429,9 @@ html {
 }
 
 @media(max-width:440px) {
-    /* .main-container {
-        height: 107vh;
-    }
     .main-container .aside-table aside {
         height: 107vh;
     }
-    .main-container .aside-table .table {
-        height: 98vh;
-    } */
     .main-container nav .first-nav h3 {
         font-size: 2.8rem;
     }
@@ -453,10 +447,16 @@ html {
         grid-column-start: 1;
         grid-column-end: 3;
         width: 100%;
+        height: 4rem;
         margin-top: 1rem;
+    }
+    .main-container .aside-table .table .table-heading form button {
+        width: 4rem;
+        height: 4rem;
     }
     .main-container .aside-table .table .table-heading form input {
         width: 100%;
+        height: 4rem;
     }
 }
 
