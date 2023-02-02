@@ -429,7 +429,7 @@ html {
 }
 
 @media(max-width:440px) {
-    .main-container {
+    /* .main-container {
         height: 107vh;
     }
     .main-container .aside-table aside {
@@ -437,7 +437,7 @@ html {
     }
     .main-container .aside-table .table {
         height: 98vh;
-    }
+    } */
     .main-container nav .first-nav h3 {
         font-size: 2.8rem;
     }
