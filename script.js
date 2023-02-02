@@ -10,5 +10,10 @@ $(document).ready(function() {
         $('.main-container .aside-table aside article .fa-times').click(function() {
             $('.main-container .aside-table aside').css("left", "-100%");
         });
-    }
+    };
+    if (window.outerWidth <= 440) {
+        $('.main-container nav .second-nav .nav-image img').click(function() {
+            $('.main-container nav .second-nav .nav-image .dropdown-box').toggle();
+        });
+    };
 });
